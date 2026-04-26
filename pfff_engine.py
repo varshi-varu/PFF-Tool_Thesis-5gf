@@ -67,7 +67,7 @@ plt.rcParams.update({
 
 np.random.seed(42)
 N_ITER  = 10_000
-OUT_DIR = "/content"           # ← Colab default. Change to your folder if needed.
+OUT_DIR = "."           # ← Colab default. Change to your folder if needed.
 os.makedirs(OUT_DIR, exist_ok=True)
 
 C = {
